@@ -1,6 +1,6 @@
 {
   "name": "@lzx-npm/format-cf",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "npm 包管理eslint/vscode等配置项",
   "main": "index.js",
   "bin": {
