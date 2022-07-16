@@ -1,0 +1,28 @@
+{
+  "name": "@lzx-npm/format-cf",
+  "version": "0.0.2",
+  "description": "npm 包管理eslint/vscode等配置项",
+  "main": "index.js",
+  "bin": {
+    "copy": "./bin/proj-settings-copy.js"
+  },
+  "scripts": {
+    "prepublish": "npm version patch",
+    "postinstall": "npx copy"
+  },
+  "peerDependencies": {
+    "eslint": "^7.29.0"
+  },
+  "keywords": [
+    "eslint",
+    "vscode",
+    "settings",
+    "gitignore",
+    "prettier"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "lzx",
+  "license": "ISC"
+}
